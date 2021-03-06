@@ -1,0 +1,65 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: lightblue;
+  font-size: 1rem;
+}
+.btn {
+  text-transform: uppercase;
+  background: black;
+  color: white;
+  padding: 0.5rem 0.5rem;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-size: 0.875rem;
+  border: white;
+  cursor: pointer;
+  border-radius: 5%;
+}
+.btn:hover {
+  color: black;
+  background: lightcoral;
+  border-color: black;
+}
+.section {
+  padding: 5rem 0;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 50rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
+}
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+h1 {
+  text-transform: uppercase;
+}
+.lorem-form {
+  text-transform: capitalize;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  font-size: 1.5rem;
+}
+input {
+  padding: 0.25rem 0.5rem;
+  width: 4rem;
+  border-radius: var(--radius);
+  border: none;
+  margin: 0 0.5rem;
+  font-size: 1.25rem;
+}
