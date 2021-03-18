@@ -3,6 +3,7 @@ body {
   background:lightgray;
   font-size: 1rem;
 }
+
 .btn {
   text-transform: uppercase;
   background: black;
@@ -11,13 +12,13 @@ body {
   letter-spacing: 1px;
   display: inline-block;
   font-size: 0.875rem;
-  border: white;
+  border:black;
   cursor: pointer;
   border-radius: 5%;
 }
 .btn:hover {
   color: black;
-  background:lightcoral;
+  background-color: rgb(202, 245, 245);
   border-color: black;
 }
 .section {
@@ -51,6 +52,9 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.lorem-text{
+  background-color: rgb(202, 245, 245);
 }
 label {
   font-size: 1.5rem;
