@@ -1,6 +1,6 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background: lightblue;
+  background:lightgray;
   font-size: 1rem;
 }
 .btn {
@@ -17,7 +17,7 @@ body {
 }
 .btn:hover {
   color: black;
-  background: lightcoral;
+  background:lightcoral;
   border-color: black;
 }
 .section {
